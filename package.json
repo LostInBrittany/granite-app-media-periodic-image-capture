@@ -1,0 +1,31 @@
+{
+  "description": "An element extending app-media-image-capture allowing a periodic image capture (i.e. x images per second)",
+  "name": "@granite-elements/granite-app-media-periodic-image-capture",
+  "homepage": "https://github.com/LostInBrittany/granite-app-media-periodic-image-capture",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LostInBrittany/granite-app-media-periodic-image-capture"
+  },
+  "version": "2.0.0",
+  "resolutions": {
+    "inherits": "2.0.3",
+    "samsam": "1.1.3",
+    "supports-color": "3.1.2",
+    "type-detect": "1.0.0",
+    "@webcomponents/webcomponentsjs": "2.0.0-beta.2"
+  },
+  "main": "granite-app-media-periodic-image-capture.js",
+  "author": "Horacio Gonzalez <horacio.gonzalez@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "@polymer/app-media": "LostInBrittany/app-media#3.0.0-pre.19"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.18",
+    "wct-browser-legacy": "^0.0.1-pre.11",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "@polymer/paper-button": "^3.0.0-pre.18",
+    "@polymer/paper-slider": "^3.0.0-pre.18"
+  }
+}
